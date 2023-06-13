@@ -3,3 +3,7 @@ function hello(str) {
 };
 
 module.exports = hello;
+
+function hello(str) {
+    return `Hello, ${str}!`
+};
